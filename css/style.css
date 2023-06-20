@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #f4f4f4;
+  height: 5%;
+  z-index: 100;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  nav {
+    height: 10%;
+  }
+
+  ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px;
+  }
+
