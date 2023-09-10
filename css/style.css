@@ -1,25 +1,15 @@
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Abel', sans-serif;
 }
-
 .navbar {
   position: sticky;
   top: 0;
   background-color: #556b2f;
   z-index: 100;
   border-bottom: 1px solid white;
-}
-.full-screen-section {
-  height: 100vh; /* 100% of the viewport height */
-  background-color: #4b5320; /* Set the background color as desired */
-  /* Add any other custom styles you want for the full-screen section */
-}
-
-.aboutme-container{
-  height: 100vh; /* 100% of the viewport height */
-  background-color: #556b2f; /* Set the background color as desired */
 }
 .navbar .nav-item {
   font-size: 20px;
@@ -42,3 +32,92 @@ li {
     padding: 10px;
   }
 }
+.custom-col{
+  margin: 0;
+  padding: 0;
+}
+.home-container {
+  text-align:center;
+  /*height: 100vh; /* 100% of the viewport height */
+  /* Add any other custom styles you want for the full-screen section */
+  margin: 0;
+  padding: 0;
+}
+.home-container-content1{
+  font-size: 110px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  background-color: #556b2f;
+  margin: 0;
+  padding: 0;
+}
+.home-container-content2{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  background-color: #556b2f;
+  margin: 0;
+  padding: 0;
+}
+.home-container-content2 h3{
+  color: black;
+}
+.welcome{
+  font-size: 40px;
+}
+
+.whoami{
+  color:black;
+  font-size: 60px;
+}
+.aboutme-container {
+  text-align:center;
+  /*height: 100vh; /* 100% of the viewport height */
+  /* Add any other custom styles you want for the full-screen section */
+  margin: 0;
+  padding: 0;
+}
+.aboutme-container-content1{
+  background-color: white;
+  font-size: 110px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 100vh;;
+  margin: 0;
+  padding: 0;
+}
+.aboutme-container-content2{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  background-color: #556b2f;
+  margin: 0;
+  padding: 0;
+}
+.fade-in-text {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
