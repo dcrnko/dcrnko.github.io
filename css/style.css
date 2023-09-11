@@ -1,8 +1,9 @@
 
-body {
+body, html {
   margin: 0;
   padding: 0;
   font-family: 'Abel', sans-serif;
+
 }
 .navbar {
   position: sticky;
@@ -66,16 +67,42 @@ li {
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 768px) {
+  .home-container-content2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    background-color: #556b2f;
+    margin: 0;
+    padding: 0; /* Change this to your desired alignment */
+  }
+}
 .home-container-content2 h3{
   color: black;
 }
 .welcome{
   font-size: 40px;
 }
-
+.freelance{
+  text-decoration: line-through;
+}
+#aboutme{
+  margin: 0;
+  padding: 0;
+}
 .whoami{
   color:black;
   font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+.desc{
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
 }
 .aboutme-container {
   text-align:center;
@@ -83,33 +110,92 @@ li {
   /* Add any other custom styles you want for the full-screen section */
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 .aboutme-container-content1{
   background-color: white;
-  font-size: 110px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  height: 100vh;;
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 .aboutme-container-content2{
+  height: 100vh;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  height: 100vh;
   background-color: #556b2f;
   margin: 0;
   padding: 0;
 }
+.skills-container{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.skills{
+  font-size: 50px;
+}
+.skills-container-content1{
+  background-color: #556b2f;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.skills-container-content2{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+#Contact{
+  height: 100vh;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+.p-contact{
+  text-align: center;
+  font-size: 60px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
 .fade-in-text {
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
+}
+.custom-button {
+  width: 100%; /* Adjust the width as needed */
+}
+
+.footer-container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: #556b2f;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  color: white;
 }
 
 @keyframes fadeIn {
