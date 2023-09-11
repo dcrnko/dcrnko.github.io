@@ -69,6 +69,16 @@ li {
   margin: 0;
   padding: 0;
 }
+.IAM{
+  font-size:30px;
+}
+.freelance{
+  font-size: 20px;
+}
+.sysadmin{
+  font-size: 30px;
+  }
+
 @media screen and (max-width: 768px) {
   .home-container-content2 {
     text-align: center;
@@ -80,6 +90,16 @@ li {
     background-color: #556b2f;
     margin: 0;
     padding: 0; /* Change this to your desired alignment */
+  }
+  .IAM{
+    font-size: 60px;
+  }
+  .freelance{
+    font-size: 40px;
+    color: black;
+  }
+  .sysadmin{
+    font-size: 60px;
   }
 }
 .home-container-content2 h3{
@@ -187,7 +207,27 @@ li {
   transition: width 0.3s ease-in-out; /* Add a transition for smooth changes */
 
 }
+@media screen and (max-width: 768px) {
+  .table{
+    font-size: 25px;
+    text-align: left;
+  }
+  .volume-indicator {
+    width: 150px; /* Set your desired width */
+    height: 30px; /* Set your desired height */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+  }
+  .volume-fill {
+    height: 100%;
+    background-color: #556b2f; /* Set your desired fill color */
+    transition: width 0.3s ease-in-out; /* Add a transition for smooth changes */
 
+}
+}
 
 #Contact{
   height: 100vh;
@@ -233,7 +273,7 @@ li {
   }
 }
 /* Styles for the "go to top" button */
-#goToTopBtn {
+/* #goToTopBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -249,5 +289,5 @@ li {
 #goToTopBtn:hover {
   background-color: #556b2f;
   color: white;
-}
+} */
 
