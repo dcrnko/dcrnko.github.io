@@ -11,8 +11,8 @@ body, html {
   position: sticky;
   top: 0;
   background-color: #556b2f;
-  z-index: 100;
-  border-bottom: 1px solid white;
+  /* z-index: 100;*/
+  border-bottom: 1px solid white; 
 }
 .navbar .nav-item {
   font-size: 20px;
@@ -34,9 +34,6 @@ li {
     height: auto;
     padding: 10px;
   }
-}
-.navbar-toggler-icon {
-  color: white;
 }
 .custom-col{
   margin: 0;
@@ -214,11 +211,12 @@ li {
 }
 
 .footer-container{
+  border-top: 1px solid black;
+  height: 10vh;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
   background-color: #556b2f;
   margin: 0;
   padding: 0;
@@ -233,5 +231,23 @@ li {
   to {
     opacity: 1;
   }
+}
+/* Styles for the "go to top" button */
+#goToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#goToTopBtn:hover {
+  background-color: #556b2f;
+  color: white;
 }
 
