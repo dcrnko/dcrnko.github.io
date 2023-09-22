@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: 'Abel', sans-serif;
@@ -7,13 +7,15 @@ body, html {
 
 
 }
+
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #556b2f;
+  background-color: #53682A;
   /* z-index: 100;*/
-  border-bottom: 1px solid white; 
+  border-bottom: 1px solid white;
 }
+
 .navbar .nav-item {
   font-size: 20px;
 }
@@ -21,7 +23,11 @@ body, html {
 li {
   margin: 0 10px;
 }
-
+.navbar-nav .nav-item a.nav-link:hover {
+  color: #ff5722; /* Change the text color to your desired color */
+ /* Change the background color to your desired color */
+  /* Add any other styles you want for the hover effect */
+}
 @media (max-width: 768px) {
   nav {
     height: 10%;
@@ -35,18 +41,21 @@ li {
     padding: 10px;
   }
 }
-.custom-col{
+
+.custom-col {
   margin: 0;
   padding: 0;
 }
+
 .home-container {
-  text-align:center;
+  text-align: center;
   /*height: 100vh; /* 100% of the viewport height */
   /* Add any other custom styles you want for the full-screen section */
   margin: 0;
   padding: 0;
 }
-.home-container-content1{
+
+.home-container-content1 {
   font-size: 110px;
   text-align: center;
   display: flex;
@@ -54,31 +63,35 @@ li {
   align-items: center;
   color: white;
   height: 100vh;
-  background-color: #556b2f;
+  background-color: #53682A;
   margin: 0;
   padding: 0;
 }
-.home-container-content2{
+
+.home-container-content2 {
   text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   height: 100vh;
-  background-color: #556b2f;
+  background-color: #53682A;
   margin: 0;
   padding: 0;
 }
-.IAM{
-  font-size:30px;
-}
-.freelance{
-  font-size: 20px;
-}
-.sysadmin{
-  font-size: 30px;
-  }
 
+.IAM {
+  font-size: 50px;
+}
+
+.freelance {
+  font-size: 30px;
+  color:black;
+}
+
+.sysadmin {
+  font-size: 50px;
+}
 @media screen and (max-width: 768px) {
   .home-container-content2 {
     text-align: center;
@@ -89,52 +102,64 @@ li {
     height: 100vh;
     background-color: #556b2f;
     margin: 0;
-    padding: 0; /* Change this to your desired alignment */
+    padding: 0;
+    /* Change this to your desired alignment */
   }
-  .IAM{
+
+  .IAM {
     font-size: 60px;
   }
-  .freelance{
+
+  .freelance {
     font-size: 40px;
     color: black;
   }
-  .sysadmin{
+
+  .sysadmin {
     font-size: 60px;
   }
 }
-.home-container-content2 h3{
+
+.home-container-content2 h3 {
   color: black;
 }
-.welcome{
+
+.welcome {
   font-size: 40px;
 }
-.freelance{
+
+.freelance {
   text-decoration: line-through;
 }
-#aboutme{
+
+#aboutme {
   margin: 0;
   padding: 0;
 }
-.whoami{
-  color:black;
+
+.whoami {
+  color: black;
   font-size: 60px;
   margin: 0;
   padding: 0;
 }
-.desc{
+
+.desc {
   font-size: 25px;
   margin: 0;
   padding: 0;
 }
+
 .aboutme-container {
-  text-align:center;
+  text-align: center;
   /*height: 100vh; /* 100% of the viewport height */
   /* Add any other custom styles you want for the full-screen section */
   margin: 0;
   padding: 0;
   height: 100vh;
 }
-.aboutme-container-content1{
+
+.aboutme-container-content1 {
   background-color: white;
   text-align: center;
   display: flex;
@@ -145,7 +170,8 @@ li {
   padding: 0;
   height: 100vh;
 }
-.aboutme-container-content2{
+
+.aboutme-container-content2 {
   height: 100vh;
   text-align: center;
   display: flex;
@@ -156,15 +182,18 @@ li {
   margin: 0;
   padding: 0;
 }
-.skills-container{
+
+.skills-container {
   height: 100vh;
   margin: 0;
   padding: 0;
 }
-.skills{
+
+.skills {
   font-size: 50px;
 }
-.skills-container-content1{
+
+.skills-container-content1 {
   background-color: #556b2f;
   text-align: center;
   display: flex;
@@ -175,24 +204,29 @@ li {
   padding: 0;
   height: 100vh;
 }
-.skills-container-content2{
+
+.skills-container-content2 {
   height: 100vh;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   color: black;
   background-color: white;
   margin: 0;
   padding: 0;
 }
-.table{
+
+.table {
   font-size: 30px;
   text-align: left;
 }
+
 .volume-indicator {
-  width: 200px; /* Set your desired width */
-  height: 35px; /* Set your desired height */
+  width: 200px;
+  /* Set your desired width */
+  height: 35px;
+  /* Set your desired height */
   background-color: white;
   border: 1px solid black;
   border-radius: 5px;
@@ -203,54 +237,67 @@ li {
 /* Styling for the volume fill bar */
 .volume-fill {
   height: 100%;
-  background-color: #556b2f; /* Set your desired fill color */
-  transition: width 0.3s ease-in-out; /* Add a transition for smooth changes */
+  background-color: #556b2f;
+  /* Set your desired fill color */
+  transition: width 0.3s ease-in-out;
+  /* Add a transition for smooth changes */
 
 }
+
 @media screen and (max-width: 768px) {
-  .table{
+  .table {
     font-size: 25px;
     text-align: left;
   }
+
   .volume-indicator {
-    width: 150px; /* Set your desired width */
-    height: 30px; /* Set your desired height */
+    width: 150px;
+    /* Set your desired width */
+    height: 30px;
+    /* Set your desired height */
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
     margin: 0;
     padding: 0;
   }
+
   .volume-fill {
     height: 100%;
-    background-color: #556b2f; /* Set your desired fill color */
-    transition: width 0.3s ease-in-out; /* Add a transition for smooth changes */
+    background-color: #556b2f;
+    /* Set your desired fill color */
+    transition: width 0.3s ease-in-out;
+    /* Add a transition for smooth changes */
 
-}
+  }
 }
 
-#Contact{
+#Contact {
   height: 100vh;
-  background-color: white;
+  background-color: #f6f6f6; background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
   margin: 0;
   padding: 0;
   bottom: 0;
 }
-.p-contact{
+
+.p-contact {
   text-align: center;
   font-size: 60px;
   padding-top: 60px;
   padding-bottom: 30px;
 }
+
 .fade-in-text {
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
 }
+
 .custom-button {
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
+  /* Adjust the width as needed */
 }
 
-.footer-container{
+.footer-container {
   border-top: 1px solid black;
   height: 10vh;
   text-align: center;
@@ -268,10 +315,12 @@ li {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 /* Styles for the "go to top" button */
 /* #goToTopBtn {
   display: none;
@@ -290,4 +339,3 @@ li {
   background-color: #556b2f;
   color: white;
 } */
-
